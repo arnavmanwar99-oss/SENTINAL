@@ -1,0 +1,25 @@
+2026-10-12 00:01:03 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/health status=200 duration_ms=12
+2026-10-12 00:02:18 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/login status=200 duration_ms=31
+2026-10-12 00:03:10 WARN web-api[1102] client_ip=198.51.100.23 method=POST path=/login status=401 username=admin duration_ms=45
+2026-10-12 00:03:14 WARN web-api[1102] client_ip=198.51.100.23 method=POST path=/login status=401 username=admin duration_ms=42
+2026-10-12 00:03:19 WARN web-api[1102] client_ip=198.51.100.23 method=POST path=/login status=401 username=arnav duration_ms=47
+2026-10-12 00:04:01 INFO web-api[1102] client_ip=192.0.2.44 method=POST path=/login status=200 username=arnav duration_ms=63
+2026-10-12 00:05:21 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/dashboard status=200 duration_ms=26
+2026-10-12 00:06:42 WARN web-api[1102] client_ip=198.51.100.88 method=GET path=/admin status=403 duration_ms=9
+2026-10-12 00:06:49 WARN web-api[1102] client_ip=198.51.100.88 method=GET path=/admin status=403 duration_ms=8
+2026-10-12 00:07:12 WARN web-api[1102] client_ip=198.51.100.88 method=GET path=/wp-admin status=404 duration_ms=11
+2026-10-12 00:08:04 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/profile status=200 duration_ms=22
+2026-10-12 00:09:44 WARN web-api[1102] client_ip=203.0.113.77 method=POST path=/login status=401 username=root duration_ms=50
+2026-10-12 00:10:03 WARN web-api[1102] client_ip=203.0.113.77 method=POST path=/login status=401 username=root duration_ms=51
+2026-10-12 00:11:27 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/settings status=200 duration_ms=19
+2026-10-12 00:12:56 ERROR web-api[1102] client_ip=192.0.2.50 method=POST path=/api/import status=500 error=database_timeout duration_ms=1502
+2026-10-12 00:13:18 WARN web-api[1102] client_ip=203.0.113.91 method=GET path=/debug status=404 duration_ms=7
+2026-10-12 00:14:01 WARN web-api[1102] client_ip=203.0.113.91 method=GET path=/config status=404 duration_ms=8
+2026-10-12 00:15:23 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/reports status=200 duration_ms=36
+2026-10-12 00:16:40 WARN web-api[1102] client_ip=198.51.100.23 method=POST path=/login status=401 username=guest duration_ms=44
+2026-10-12 00:17:05 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/logout status=200 duration_ms=14
+2026-10-12 00:18:29 ERROR web-api[1102] client_ip=192.0.2.50 method=POST path=/api/report status=500 error=upstream_unavailable duration_ms=2010
+2026-10-12 00:19:43 WARN web-api[1102] client_ip=203.0.113.77 method=GET path=/phpmyadmin status=404 duration_ms=10
+2026-10-12 00:20:11 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/health status=200 duration_ms=13
+2026-10-12 00:21:35 WARN web-api[1102] client_ip=198.51.100.88 method=GET path=/.env status=404 duration_ms=8
+2026-10-12 00:22:14 INFO web-api[1102] client_ip=192.0.2.44 method=GET path=/dashboard status=200 duration_ms=25
