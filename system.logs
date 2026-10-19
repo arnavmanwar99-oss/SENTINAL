@@ -1,0 +1,25 @@
+Oct 12 00:01:01 sentinel-lab systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 12 00:02:14 sentinel-lab kernel: [ 102.441] wlan0: associated with access point 02:11:22:33:44:55
+Oct 12 00:03:02 sentinel-lab NetworkManager[802]: dhcp4 (wlan0): address=192.168.1.24
+Oct 12 00:03:55 sentinel-lab systemd[1]: Started OpenSSH server daemon.
+Oct 12 00:04:10 sentinel-lab systemd[1]: Started Network Manager.
+Oct 12 00:05:32 sentinel-lab kernel: [ 198.113] usb 1-2: new high-speed USB device detected
+Oct 12 00:06:44 sentinel-lab systemd[1]: Started User Manager for UID 1000.
+Oct 12 00:07:26 sentinel-lab sshd[1140]: error: maximum authentication attempts exceeded for root from 203.0.113.77 port 52001 ssh2 [preauth]
+Oct 12 00:08:19 sentinel-lab systemd[1]: Started Session 14 of User arnav.
+Oct 12 00:09:31 sentinel-lab kernel: [ 245.221] audit: apparmor=DENIED operation=open profile=snap.demo-app name=/etc/shadow pid=1301 comm=demo-app
+Oct 12 00:10:12 sentinel-lab systemd[1]: Reloading OpenSSH server daemon.
+Oct 12 00:11:45 sentinel-lab NetworkManager[802]: <warn> connectivity check failed for interface wlan0
+Oct 12 00:12:04 sentinel-lab systemd[1]: Started User Manager for UID 1000.
+Oct 12 00:13:29 sentinel-lab kernel: [ 301.551] audit: type=1400 apparmor=DENIED operation=exec profile=restricted-app name=/usr/bin/bash
+Oct 12 00:14:09 sentinel-lab sshd[1190]: error: maximum authentication attempts exceeded for root from 203.0.113.77 port 52002 ssh2 [preauth]
+Oct 12 00:15:16 sentinel-lab systemd[1]: Failed to start demo-backup.service - Demo Backup Service.
+Oct 12 00:16:33 sentinel-lab systemd[1]: demo-backup.service: Main process exited, code=exited, status=1/FAILURE
+Oct 12 00:17:03 sentinel-lab systemd[1]: Started Network Time Synchronization.
+Oct 12 00:18:40 sentinel-lab kernel: [ 405.112] wlan0: deauthenticated from 02:11:22:33:44:55 reason=4
+Oct 12 00:19:02 sentinel-lab NetworkManager[802]: <info> wlan0: connected to access point
+Oct 12 00:20:14 sentinel-lab systemd[1]: Started Daily Log Rotation.
+Oct 12 00:21:18 sentinel-lab systemd[1]: Finished Daily Log Rotation.
+Oct 12 00:22:31 sentinel-lab kernel: [ 510.442] audit: apparmor=DENIED operation=open profile=demo-app name=/root/.ssh/id_rsa pid=1410 comm=demo-app
+Oct 12 00:23:17 sentinel-lab systemd[1]: Failed to start suspicious-test.service - Suspicious Test Service.
+Oct 12 00:24:08 sentinel-lab systemd[1]: Started OpenSSH server daemon.
